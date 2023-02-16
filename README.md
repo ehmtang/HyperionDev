@@ -12,19 +12,13 @@
   - [T48 Capstone Project V](#t48-capstone-project-v)
 - [Acknowledgments](#acknowledgments)
 
-
 ## Introduction
-This is the introduction section.
-
+This repository contains course submissions to the capstone tasks delivered by HyperionDev
 
 ## Technology
-
-To create this project I used:
-
-* Python
+* Python (>3.9)
 * SQLite
 * Git
-
 
 ## Installation
 This is the installation section.
