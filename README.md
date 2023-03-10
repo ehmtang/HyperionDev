@@ -9,7 +9,7 @@
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
-This repository contains all course submissions delivered by HyperionDev.
+This repository contains course capstone submissions delivered by HyperionDev.
 
 ## Technology
 Requirements needed to run [ebookstore.py](https://github.com/ehmtang/finalCapstone/blob/main/T48/ebookstore_program.py)
