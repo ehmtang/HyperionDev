@@ -5,6 +5,10 @@
 - [Technology](#technology)
 - [Installation](#installation)
 - [Capstones](#capstones)
+  - [T12 Capstone Project I](#t12-capstone-project-i)
+  - [T21 Capstone Project II](#t21-capstone-project-ii)
+  - [T26 Capstone Project III](#t26-capstone-project-iii)
+  - [T32 Capstone Project IV](#t32-capstone-project-iv)
   - [T48 Capstone Project V](#t48-capstone-project-v)
 - [Acknowledgments](#acknowledgments)
 
@@ -32,6 +36,24 @@ Taken from [Github Docs Cloning a repository from GitHub to GitHub Desktop](http
 
 
 ## Capstones
+### T12 Capstone Project I
+'Finance Calculators' program enables a user to:
+* calculate their interesst on an investment
+* calculate the amount that should be repaid on a home loan each month
+
+### T21 Capstone Project II
+'Task Manager' program enables a user to:
+* manage tasks assigned to each member of the team
+  * update username, title of task, description, date start, date due and completion
+
+### T26 Capstone Project III
+'Task Manager' expands on functionality of previous captstone
+* add functions to program 
+
+### T32 Capstone Project IV
+'Inventory' program enables a user to:
+* read inventory from a .txt file 
+* query cost, quantity and stock value
 
 ### T48 Capstone Project V
 This program enables a user to:
