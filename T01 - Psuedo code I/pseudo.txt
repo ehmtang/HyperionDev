@@ -1,0 +1,61 @@
+1. An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were input.
+
+"""
+request positive integer from the user
+
+while positive integer is not zero or null
+
+	make a list of requested positive integers
+
+	request another positive integer from the user
+
+else
+	
+	print max value of positive integers from list
+"""
+
+
+2. An algorithm that reads an arbitary number of integers and then returns their arithmetic average.
+
+"""
+get array
+
+	total = sum of integers
+	
+	average = total / length of array
+
+	return average
+	
+"""
+
+
+3. An algorithm that reads a grocery list and prints out the products in alphabetical order that are still left to buy.
+
+"""
+get shopping list, items_in_basket
+
+	for each item in items_in_basket
+	
+		if items_in_basket is in shopping list
+		
+			remove that item from the shopping list
+	
+	sort items in shopping list by ascending order
+	
+	print items in shopping list
+"""
+
+
+4. See flow chart
+
+"""
+get X, Y
+
+let S = X + Y
+
+let A = S / 2
+
+let P = X * Y
+
+return S, A, P
+"""

@@ -1,0 +1,15 @@
+1. An algorithm that asks the user to enter four numbers, sorts thoses number from smallest to largest and then prints the sorted numbers
+
+"""
+create empty list
+
+while length of list is less than 3
+
+    request float from user
+
+    append float to list
+
+sort list by ascending order
+
+print sorted list
+"""

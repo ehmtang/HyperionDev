@@ -1,0 +1,27 @@
+1. Fibonacci sequence
+
+"""
+# Referenced from https://www.geeksforgeeks.org/python-program-for-program-for-fibonacci-numbers-2/
+
+request input from user
+
+store input as variable n (length of fibonacci sequence)
+
+if n < 0
+	
+	break
+
+elif n == 0
+
+	return 0
+	
+elif n == 1 OR n == 2
+
+	return 1
+	
+else
+
+	for i in range n
+	
+		print F(n-1) + F(n-2)
+"""
