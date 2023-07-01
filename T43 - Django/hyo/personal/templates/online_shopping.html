@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Online Shopping</title>
+        <html lang="en">
+        <meta charset="UTF-8">
+        <meta name="description" content="online shopping page">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="ehmtang">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    </head>
+    
+    <style>
+    .picture2 {
+        display: none;
+    }
+    
+    .thumbnail:hover .picture1 {
+        display: none;
+    }
+    
+    .thumbnail:hover .picture2 {
+        display: block;
+    }
+    
+    nav .navbar-nav li a{
+        color: white;
+    }
+    
+    .picture1 img, .picture2 img{
+        border-radius: 25px;
+        padding: 20px; 
+        width: 250px;
+        height: 250px;
+    }
+
+    .thumbnail, .picture1 img, .picture2 img, caption {
+        display: block;
+        margin: auto;
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .btn-default {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .container-fluid {
+        padding-bottom: 20px;
+    }
+
+    </style>
+    
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="https://media.gettyimages.com/id/1193530776/photo/geometrical-colorful-background.jpg?s=2048x2048&w=gi&k=20&c=TWc4dEA0FzVWtR3Ns9OyavdwmeC0uOBwu-cLbBwV3KE=" alt="Logo" style="width:40px;">
+            </a>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <br>
+
+        <div class="container-fluid">
+            <h1>Top 10 Hits Today</h1>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/153882318/photo/baked-beans-spilling-out-of-a-tin-can.jpg?s=2048x2048&w=gi&k=20&c=MTlS4S0Fmfqbz3QMRtnw-QVc3nbGg7n4Eu51Er9EifU=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/175533252/photo/baked-beans-on-toast.jpg?s=1024x1024&w=gi&k=20&c=RmlNl_TaceRe-G7YMV76OFewno_etQXsZMJtguIY5Y8=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Baked Beans</b></p>
+                            <p><em>"Nothing better than beans on your plate"</em></p>
+                            <p>£0.99</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                    
+                
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1267089181/photo/plastic-free-wooden-and-bamboo-toothbrushes.jpg?s=1024x1024&w=gi&k=20&c=69gxR7uFywkoBN8Cc29NmrPleVxGeUoAuRc3pRHasf0=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1331599735/photo/zero-waste-plastic-free-products-in-bathroom.jpg?s=2048x2048&w=gi&k=20&c=vqC5cdemVYqa5Ymcu9asxIHqesBk-DQWOxmlCeYOmiw=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Bamboo Toothbrush</b></p>
+                            <p><em>"Brush Brush Brush"</em></p>
+                            <p>£1.99</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/175812576/photo/red-pencil-with-copy-space.jpg?s=2048x2048&w=gi&k=20&c=w5nTwPZzkztDah6nGcFjvv5dVNMHYy_mXBKMw0a9R6w=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/658965822/photo/close-up-of-broken-red-pencil-with-copy-space.jpg?s=2048x2048&w=gi&k=20&c=RzXLN3uxk-3c97dTx4RIw2DbUJ6jTivncuklI0cMs-Q=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Pencil</b></p>
+                            <p><em>"5 stars - it's a pencil!"</em></p>
+                            <p>£0.50</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1315340761/photo/new-clean-green-sports-sneakers-with-laces-on-a-bright-yellow-background-the-concept-of-a.jpg?s=1024x1024&w=gi&k=20&c=YMKgcJMqIuwKkloaOV8MuoCUKEVUPuPhB2-wUWLjTz0=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/157190302/photo/tennis-shoes-and-bible.jpg?s=1024x1024&w=gi&k=20&c=B8o-PfxCu3vNl2ARXiwiRxS-jCl8MOSWhOH-BRQ3C9w=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Poster of Shoes</b></p>
+                            <p><em>"Shoes were worn by Nicholas Cage"</em></p>
+                            <p>£11.00</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1235728903/photo/apple-macbook-pro.jpg?s=2048x2048&w=gi&k=20&c=v-DaeHk8un-yz157RxxgE-QmHLrc0MoSuYKmvnHlJOc=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1390536487/photo/woman-shopping-clothes-online-on-laptop-and-making-payment-with-credit-card.jpg?s=2048x2048&w=gi&k=20&c=PMQpZ0jcqq1xGVz5pXKVPCyjBZjYpqykRXqACkMC07E=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Not-A-Laptop (charger sold separately)</b></p>
+                            <p><em>"I'm happy with my not-a-laptop"</em></p>
+                            <p>£3400.00</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1011852238/photo/opticians-measurements-marked-on-glasses.jpg?s=2048x2048&w=gi&k=20&c=n5Ie4JN9HqiNoppiQdC7GkpoWUtQxGTpeHqor8wAjU0=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1357193029/photo/portrait-of-a-young-handsome-asian-entrepreneur-smiling-and-looking-forward-to-the-future.jpg?s=2048x2048&w=gi&k=20&c=M8V9Eg1dMsz6CeHsCx_9fq1iIUY5ulu1boTCKNckWPA=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Glasses (person included)</b></p>
+                            <p><em>"Note - person cannot be returned."</em></p>
+                            <p>£120.00</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/70000521/photo/refrigerator.jpg?s=2048x2048&w=gi&k=20&c=57eJJUlRc_KqUaEREexxa-7o7NwMj28gfZet_giwX2g=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/sb10067618a-001/photo/fidge-filled-up-with-green-vegetables-and-fruit.jpg?s=2048x2048&w=gi&k=20&c=JZZ3sylB9H5wiZGbtnWJMdI2Ukp9Eztt6eKj_-Pd494=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Self-Refilling Smart Fridge</b></p>
+                            <p><em>"Only refills green objects"</em></p>
+                            <p>£8899.00</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1365792523/photo/realistic-frying-pan-in-top-view-isolated-on-white-background.jpg?s=2048x2048&w=gi&k=20&c=rKmrUxBlit2ER6aQZFkgghnVNBm2rLa6kaZ0u2StApc=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/1237217004/photo/palestinian-gaza-syria-israel-conflict-refugees.jpg?s=2048x2048&w=gi&k=20&c=pftuuch99oYLTIE4mlntbroQfUisIjAkWzQhSZcUPPc=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Frying Pan</b></p>
+                            <p><em>"I won MasterChef UK with this pan"</em></p>
+                            <p>£30.00</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/953861588/photo/toilet-roll-that-has-run-out-of-toilet-paper.jpg?s=2048x2048&w=gi&k=20&c=h3wIcnbmkDMqH2rGcvzzaFDnhZAoLa7sKwseQ_wsSEE=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/953857830/photo/toilet-roll-holder-on-pink.jpg?s=2048x2048&w=gi&k=20&c=HM91vinTwRl1pyB9x1rQA4bvB-o3PrVW1mA3XhCn9Xo=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Toilet Paper</b></p>
+                            <p><em>"Don't let this happen to you."</em></p>
+                            <p>£12.99</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <div class="picture1">
+                            <img class="img-responsive" src="https://m.media-amazon.com/images/I/51EIARLKNJL._AC_.jpg" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="picture2">
+                            <img class="img-responsive" src="https://media.gettyimages.com/id/89975022/photo/worker-on-forklift-smiling-to-camera.jpg?s=2048x2048&w=gi&k=20&c=IVpBAoZZIJUFIG9jJ9PB-Zlm8AnQRD82yLZ9KcKTkRs=" alt="" width="5em" height="5em">
+                        </div>
+                        <div class="caption">
+                            <p><b>Forklift Certification</b></p>
+                            <p></em>"Get the hunnies... get forklift certified."</em></p>
+                            <p>£49.99</p>
+                            <button type="button" class="btn btn-default">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4 pb-0">
+                <section class="">
+                    <form action="">
+                        
+                        <div class="row d-flex justify-content-center">
+                            <div class="logo">
+                                <img src="https://media.gettyimages.com/id/1193530776/photo/geometrical-colorful-background.jpg?s=2048x2048&w=gi&k=20&c=TWc4dEA0FzVWtR3Ns9OyavdwmeC0uOBwu-cLbBwV3KE=" alt="Logo" style="width:40px;">
+                            </div>
+
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Sign up for our newsletter</strong>
+                                </p>
+                            </div>
+                        
+                            <div class="col-md-5 col-12">
+                                <div class="form-outline form-white mb-4">
+                                    <input type="email" id="email" class="form-control" placeholder="email"/>
+                                    <label class="form-label" for="email"></label>
+                                </div>
+                            </div>
+                        
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-outline-light mb-4">
+                                    Subscribe
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="">onlineshpping.com</a>
+            </div>
+            
+        </footer>
+    
+    </body>
+
+</html>
+
+<!--Reference from https://mdbootstrap.com/-->
