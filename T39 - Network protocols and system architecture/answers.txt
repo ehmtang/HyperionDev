@@ -1,0 +1,14 @@
+1. Protocols are a system of rules and procedures that govern the transfer, exchange and transmission of data.
+
+2. HTTP is built upon Transmission Control Protocol/Internet Protocol (TCP/IP). TCP/IP governs how information is sent and received in the form of packets between client and server.
+
+3. HTTP successful responses fall within the status code group 200-299. A fully functioning HTTP request would have a status code of '200 OK', confirming its success.
+
+4. A stateless protocol is a communication protocol in which the client must not retain session state from previous requests. In the context of HTTP, HTTP requests to the server are independent from prior requests.
+
+5. Valid MIME types are:
+	b. image/jpeg
+	c. text/javascript
+	e. image/psd (psd file are often used as image/vnd.adobe.photoshop)
+
+6. If a server does not allow the client permission to request, the status code falls within the status code group 500-599. 
