@@ -1,0 +1,6 @@
+I have a cat and a dog.
+Their names are Cerveza and Limon
+
+My string has 57 characters.
+My string has 12 words.
+My string has 2 lines.
