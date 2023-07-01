@@ -1,0 +1,6 @@
+admin's number of tasks generated: 5
+admin's number of completed tasks: 2
+admin's number of uncompleted tasks: 3
+admin's number of overdue tasks: 2
+Percentage of admin's uncomplete tasks: 60.0%
+Percentage of admin's overdue tasks: 40.0%
