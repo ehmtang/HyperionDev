@@ -1,0 +1,21 @@
+In the context of databases.
+
+1a. Data are defined as observations or measurements which are used to construct baselines, benchmarks and goals.
+
+1b. Field is defined as a set of data values of the same data type that have specific meaning.
+
+1c. Record is the set of one or more fields that describes the object. 
+
+1d. File is a collection of records.
+
+2. DBMS meaning database management system is a software used to create and manage databases allowing to users to create,  read, update and delete data in a database. 
+
+Benefits include data sharing, data security, consistency, reliablity.
+
+3. Data is a collection of facts, while information puts those facts into context. While data is raw and unorganized, information is organized. Data points are individual and sometimes unrelated.
+
+4. Metadata is a set of data that describes and gives information about other data.
+
+5e. There 4 records.
+
+5f. There 5 fields.

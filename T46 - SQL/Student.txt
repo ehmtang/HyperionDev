@@ -1,0 +1,78 @@
+-- Create a new table called 'Student' in schema 'dbo' and database 'school'
+-- Drop the table if it already exists
+IF OBJECT_ID('school.dbo.Student', 'U') IS NOT NULL
+DROP TABLE school.dbo.Student
+GO
+-- Create the table in the specified schema
+CREATE TABLE school.dbo.Student
+(
+    STU_NUM CHAR(6) NOT NULL PRIMARY KEY,
+    STU_SNAME VARCHAR(15) NOT NULL,
+    STU_FNAME VARCHAR(15) NOT NULL,
+    STU_INITIAL CHAR(1) NOT NULL,
+    STU_STARTDATE DATE NOT NULL,
+    COURSE_CODE CHAR(3) NOT NULL,
+    PROJ_NUM INT NOT NULL --using MSSQL INT(2) invalid
+);
+GO
+
+-- Inserting two records into table Student
+INSERT INTO school.dbo.Student 
+(
+    STU_NUM, 
+    STU_SNAME,
+    STU_FNAME,
+    STU_INITIAL,
+    STU_STARTDATE,
+    COURSE_CODE,
+    PROJ_NUM
+)
+
+VALUES
+(
+    01,
+    'Snow',
+    'John',
+    'E',
+    '05-Apr-14',
+    201,
+    6
+),
+(
+    02,
+    'Stark',
+    'Ayra',
+    'C',
+    '12-Jul-17',
+    305,
+    11
+);
+
+-- Listing all attributes where COURSE_CODE equals 305
+SELECT * FROM school.dbo.Student
+WHERE COURSE_CODE = 305;
+
+-- Change student number 07's course code to 304
+UPDATE school.dbo.Student
+SET COURSE_CODE = 304
+WHERE STU_NUM = 07
+
+-- Remove row where record contains Jamie Lannister, 5/9/22, 101, 2
+DELETE FROM school.dbo.Student 
+WHERE STU_SNAME = 'Lannister'
+AND STU_FNAME = 'Jamie'
+AND STU_STARTDATE = '05-Sep-12'
+AND COURSE_CODE = 101
+AND PROJ_NUM = 2;
+
+-- Change PROJ_NUM to 14 for all records started before 1 Jan 16 and course code is at least 201
+UPDATE school.dbo.Student
+SET PROJ_NUM = 14
+WHERE STU_STARTDATE < '01-Jan-16'
+AND COURSE_CODE <= 201;
+
+-- Delete all data inside Student
+DELETE FROM school.dbo.Student;
+
+-- Delete student Table
+DROP TABLE school.dbo.Student;
