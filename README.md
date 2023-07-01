@@ -16,7 +16,7 @@
 This repository contains course capstone submissions delivered by HyperionDev.
 
 ## Technology
-Requirements needed to run [ebookstore.py](https://github.com/ehmtang/finalCapstone/blob/main/T48/ebookstore_program.py)
+Requirements needed to run [ebookstore.py]([https://github.com/ehmtang/finalCapstone/blob/main/T48 - Capstone V/ebookstore_program.py](https://github.com/ehmtang/SE-Bootcamp-HyperionDev/blob/main/T48%20-%20Capstone%20V/ebookstore_program.py))
 
 * Python (>3.9)
     * Pandas
@@ -62,31 +62,8 @@ This program enables a user to:
 * delete books from the database
 * search the database to find a specific book
 
-#### Usage
-Enter 1 to add new books to the database, example:
-
-<img src=https://github.com/ehmtang/finalCapstone/blob/main/T48/enter_book.png width="500">
-
-Enter 2 to update book to the database, example:
-
-<img src= https://github.com/ehmtang/finalCapstone/blob/main/T48/update_book.png width= "500">
-
-Enter 3 to delete book from the database, example:
-
-<img src=https://github.com/ehmtang/finalCapstone/blob/main/T48/delete_book.png width="500">
-
-Enter 4 to seach book from the database, example:
-
-<img src= https://github.com/ehmtang/finalCapstone/blob/main/T48/search_book.png width= "500">
-
-Enter 5 to read all books from the database, example:
-
-<img src= https://github.com/ehmtang/finalCapstone/blob/main/T48/read_all.png width= "500">
-
-
 ## Acknowledgments
 
 Special thanks to course provider and mentors of [HyperionDev](https://www.hyperiondev.com/)
-
 Gov.UK for sponsorship [Skills for Life campaign](https://skillsforlife.campaign.gov.uk/)
 
